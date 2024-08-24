@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { appName } from '~/constants'
+import { app } from '~/constants'
 
 useHead({
-  title: appName,
+  title: app.name,
 })
 </script>
 
@@ -23,7 +23,7 @@ body,
 }
 
 html.dark {
-  background: #222;
+  background: #18181b;
   color: white;
 }
 </style>
