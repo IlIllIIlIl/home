@@ -26,6 +26,9 @@
           <LayoutMainDarkToggle />
         </div>
       </div>
+      <div hidden md:block>
+        <LayoutMainNavbar />
+      </div>
       <div flex-1 overflow-auto p-4 md:mx-auto md:max-w-4xl>
         <slot />
       </div>

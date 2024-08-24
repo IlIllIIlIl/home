@@ -23,6 +23,8 @@ export default defineConfig({
   shortcuts: [],
   safelist: [
     'i-ri-headphone-fill',
+    'i-ri-home-4-fill',
+    'i-ri-article-fill',
   ],
   presets: [
     presetUno(),

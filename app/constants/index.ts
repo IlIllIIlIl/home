@@ -1,3 +1,5 @@
+import { pages } from '~/constants/pages'
+
 export const app = {
   name: 'Tseneko Li',
   description: 'Never Settle.',
@@ -7,4 +9,5 @@ export const app = {
     icon: 'i-ri-headphone-fill',
     text: '听歌中',
   },
+  pages,
 }
