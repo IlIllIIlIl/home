@@ -1,5 +1,4 @@
-import { pwa } from './app/config/pwa'
-import { appDescription } from './app/constants/index'
+import { app } from './app/constants/index'
 
 export default defineNuxtConfig({
   modules: [
@@ -7,9 +6,8 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
-    '@vite-pwa/nuxt',
     '@nuxt/eslint',
-    "@nuxt/content"
+    '@nuxt/content',
   ],
 
   experimental: {
@@ -51,15 +49,13 @@ export default defineNuxtConfig({
       ],
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: appDescription },
+        { name: 'description', content: app.description },
         { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
         { name: 'theme-color', media: '(prefers-color-scheme: light)', content: 'white' },
         { name: 'theme-color', media: '(prefers-color-scheme: dark)', content: '#222222' },
       ],
     },
   },
-
-  pwa,
 
   devtools: {
     enabled: true,
