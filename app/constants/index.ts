@@ -1,5 +1,3 @@
-import { pages } from '~/constants/pages'
-
 export const app = {
   name: 'Tseneko Li',
   description: 'Never Settle.',
@@ -9,5 +7,13 @@ export const app = {
     icon: 'i-ri-headphone-fill',
     text: '听歌中',
   },
-  pages,
+  pages: [{
+    text: '主页',
+    icon: 'i-ri-home-4-fill',
+    href: '/',
+  }, {
+    text: '文章',
+    icon: 'i-ri-article-fill',
+    href: '/posts',
+  }],
 }
