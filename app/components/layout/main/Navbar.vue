@@ -1,9 +1,12 @@
 <script lang="ts" setup>
 import { app } from '~/constants'
+
+const route = useRoute()
 </script>
 
 <template>
   <div
+    v-if="route.path === ''"
     class="relative h-16 w-screen flex items-center justify-between bg-transparent px-8 backdrop-blur-sm !fixed"
     border="b gray-200 dark:border-black"
   >

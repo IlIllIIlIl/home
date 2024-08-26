@@ -6,22 +6,22 @@
 
     <div class="flex flex-1">
       <div
-        hidden transition-all md:block
-        w="sm:64 md:70 lg:90"
-        p="sm:4 md:5 lg:6"
+        hidden transition-all lg:block
+        w="lg:70 xl:80"
+        p="lg:4 xl:5"
         border="r border-white dark:border-black"
       >
         <div
           absolute select-none transition-all
-          left="14 lg:12 md:8"
-          top="14 lg:12 md:8"
+          left="xl:10 lg:6"
+          top="xl:10 lg:6"
         >
           <LayoutMainLeftTitle />
         </div>
         <div
           absolute transition-all
-          left="14 lg:12 md:8"
-          bottom="14 lg:12 md:8"
+          left="xl:10 lg:6"
+          bottom="xl:10 lg:6"
         >
           <LayoutMainDarkToggle />
         </div>
@@ -29,7 +29,7 @@
       <div hidden md:block>
         <LayoutMainNavbar />
       </div>
-      <div flex-1 overflow-auto p-4 md:mx-auto md:max-w-4xl>
+      <div flex-1 p-18>
         <slot />
       </div>
     </div>
