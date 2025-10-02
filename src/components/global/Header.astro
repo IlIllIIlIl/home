@@ -1,0 +1,17 @@
+---
+import { config } from '@/config'
+import Link from '@/components/global//Link.astro'
+---
+
+<header class="sticky top-0 z-50 flex items-center justify-between py-3 px-6 backdrop-blur-md" bg="background op-70">
+  <Link href="/">{config.name}/index</Link>
+  <nav flex gap-2 text-muted>
+    {
+      config.navLinks.map((href) => (
+        <Link href={href} hover="text-foreground">
+          {href}
+        </Link>
+      ))
+    }
+  </nav>
+</header>
