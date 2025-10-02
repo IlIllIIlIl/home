@@ -1,12 +1,24 @@
+---
+import Footer from '@/components/global/Footer.astro'
+import Header from '@/components/global/Header.astro'
+import { config } from '@/config'
+import { ClientRouter } from 'astro:transitions'
+---
+
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro Basics</title>
+    <title>{config.title}</title>
+    <ClientRouter />
   </head>
-  <body>
-    <slot />
+  <body class="mx-auto max-w-xl bg-background text-foreground font-mono antialiased">
+    <Header />
+    <main px-6 py-3 min-h-screen>
+      <slot />
+    </main>
+    <Footer />
   </body>
 </html>

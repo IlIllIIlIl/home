@@ -1,0 +1,20 @@
+---
+import type { HTMLAttributes } from 'astro/types'
+
+type Props = HTMLAttributes<'a'>
+
+const { pathname } = new URL(Astro.request.url)
+const { href, ...props } = Astro.props as Props
+---
+
+{
+  href === pathname || (href !== '/' && pathname.startsWith(href as string)) ? (
+    <span class="font-medium" {...props}>
+      <slot />
+    </span>
+  ) : (
+    <a href={href} {...props}>
+      <slot />
+    </a>
+  )
+}
