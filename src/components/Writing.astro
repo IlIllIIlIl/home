@@ -1,0 +1,25 @@
+---
+import { formatDate } from '@/utils/format'
+
+const { writing } = Astro.props
+
+const data = writing.data
+---
+
+<a href={`/writings/${writing.id}`} class="flex items-center py-6 sm:py-3 hover:opacity-80 transition-opacity">
+  <div class="flex-1 items-center">
+    <span class="font-sans">{data.title}</span>
+    <span class="text-muted font-mono hidden lg:block text-sm transition-opacity">
+      {writing.id}
+    </span>
+  </div>
+  <span
+    class:list={[
+      'text-muted font-sans text-sm',
+      data.updated && 'underline decoration-dashed decoration-offset-6 decoration-opacity-20',
+    ]}
+    title={data.updated && `易於${formatDate(data.updated)}`}
+  >
+    {data.date && formatDate(data.date)}
+  </span>
+</a>
