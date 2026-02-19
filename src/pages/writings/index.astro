@@ -1,0 +1,48 @@
+---
+import Writing from '@/components/Writing.astro'
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import { getCollection } from 'astro:content'
+
+const writings = await getCollection('writings', ({ data }) => {
+  return data.private !== true
+}).then((writings) => {
+  return writings.sort((a, b) => {
+    if (!a.data.date) return 1
+    if (!b.data.date) return -1
+    return new Date(a.data.date).getTime() - new Date(b.data.date).getTime()
+  })
+})
+
+const drafts = writings.filter((w) => w.data.draft)
+---
+
+<BaseLayout>
+  <section id="hero" class="typography">
+    <h1>Writings</h1>
+    <p>不要因爲走得太遠，就忘記當初爲什麼出發。</p>
+  </section>
+  <div class="divide">
+    {writings.filter((w) => !w.data.draft).map((writing) => <Writing {writing} />)}
+  </div>
+  {
+    drafts.length > 0 && (
+      <details open>
+        <summary class="flex items-center text-muted hover:text-foreground transition-colors list-none py-3">
+          <span class="font-mono mr-3">Drafts ({drafts.length})</span>
+          <hr class="flex-1 h-px border-neutral-200 dark:border-neutral-900" />
+        </summary>
+
+        <div class="divide">
+          {drafts.map((writing) => (
+            <Writing {writing} />
+          ))}
+        </div>
+      </details>
+    )
+  }
+  <p class="mt-3 text-muted text-xs">
+    All original texts are under
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" class="link">CC BY-NC-SA 4.0</a
+    >.
+  </p>
+</BaseLayout>

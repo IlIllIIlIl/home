@@ -3,22 +3,37 @@ import Footer from '@/components/global/Footer.astro'
 import Header from '@/components/global/Header.astro'
 import { config } from '@/config'
 import { ClientRouter } from 'astro:transitions'
+
+// import '@/styles/main.css'
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
     <title>{config.title}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.cn" />
+    <link rel="preconnect" href="https://fonts.gstatic.cn" crossorigin />
+    <link href="https://fonts.googleapis.cn/css2?family=Chocolate+Classical+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.cn/css2?family=Geist+Mono&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.cn/css2?family=LXGW+WenKai+Mono+TC&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.cn/css2?family=Noto+Serif+JP:wght@700&display=swap" rel="stylesheet" />
     <ClientRouter />
   </head>
-  <body class="mx-auto max-w-xl bg-background text-foreground font-mono antialiased">
+  <body
+    class="mx-auto bg-background text-foreground font-mono antialiased select-text selection:bg-neutral-950/10 dark:selection:bg-neutral-100/10"
+  >
     <Header />
-    <main px-6 py-3 min-h-screen>
+    <main class="px-6 py-16 md:pt-32 min-h-screen max-w-xl mx-auto">
       <slot />
     </main>
     <Footer />
   </body>
 </html>
+<style>
+  body {
+    text-spacing-trim: trim-start;
+    text-autospace: normal;
+  }
+</style>
