@@ -13,7 +13,7 @@ export const config = {
     ['Bopomofo', 'ㄌㄧˇ ㄗㄜˊ'],
     ['Hanyu Pinyin', 'Lǐ Zé'],
     ['Wade-Giles', 'Li Tsê'],
-    ['Gwoyeu Romatzyh', 'Lii Tzer'],
+    // ['Gwoyeu Romatzyh', 'Lii Tzer'],
     // ['Jyutping', 'lei5 zak1'],
     // ['Yale', 'léih jaahk'],
     // ['IPA', 'liː tsɛk'],
