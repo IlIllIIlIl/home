@@ -1,4 +1,5 @@
 ---
+import PageHero from '@/components/PageHero.astro'
 import Writing from '@/components/Writing.astro'
 import BaseLayout from '@/layouts/BaseLayout.astro'
 import { getCollection } from 'astro:content'
@@ -17,10 +18,7 @@ const drafts = writings.filter((w) => w.data.draft)
 ---
 
 <BaseLayout>
-  <section id="hero" class="typography">
-    <h1>Writings</h1>
-    <p>不要因爲走得太遠，就忘記當初爲什麼出發。</p>
-  </section>
+  <PageHero title="Writings" character="寫" description="不要因爲走得太遠，就忘記當初爲什麼出發。" />
   <div class="divide">
     {writings.filter((w) => !w.data.draft).map((writing) => <Writing {writing} />)}
   </div>

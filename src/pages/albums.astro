@@ -1,0 +1,32 @@
+---
+import PageHero from '@/components/PageHero.astro'
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import { getCollection } from 'astro:content'
+
+const albums = await getCollection('albums').then((albums) => {
+  return albums.sort((a, b) => {
+    return a.data.title.localeCompare(b.data.title, 'zh-Hant')
+  })
+})
+---
+
+<BaseLayout>
+  <PageHero title="Albums" character="輯" />
+  <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 items-center font-sans">
+    {
+      albums.map((album) => (
+        <div class="flex flex-col">
+          {album.data.cover && (
+            <img
+              src={album.data.cover}
+              alt={album.data.title}
+              class="size-full border border-neutral-200 dark:border-neutral-800"
+            />
+          )}
+          <h3 class="mt-2 text-sm truncate">{album.data.title}</h3>
+          <p class="text-xs text-muted truncate">{album.data.artist}</p>
+        </div>
+      ))
+    }
+  </div>
+</BaseLayout>

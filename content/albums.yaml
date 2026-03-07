@@ -1,0 +1,168 @@
+- id: pf
+  title: Wish You Were Here
+  artist: Pink Floyd
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/e0/ab/aae0ab6a-d906-a189-81bf-70b56aa43f7a/886445635843.jpg/416x416bb.webp
+- id: sh
+  title: Shelter
+  artist: Porter Robinson & Madeon
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ff/56/9a/ff569a15-ff9f-307d-3d6c-1415d80bd8c1/653738346720_Cover.jpg/592x592bb.webp
+- id: sl
+  title: Shed a Light
+  artist: Robin Schulz & David Guetta & Cheat Codes
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/24/da/98/24da9830-196d-d0be-b636-d84f47d3a4f2/190295874766.jpg/592x592bb.webp
+- id: yn
+  title: If I Could Tell You
+  artist: Yanni
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5e/67/5a/5e675a43-2dd0-84ed-238b-7ae38ca26b6c/859711137082_cover.jpg/592x592bb.webp
+- id: oa
+  title: Secret Journey
+  artist: Omar Akram
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/28/16/f5/2816f569-80fb-c7dd-b5a7-605fc60e9806/196925329934.jpg/592x592bb.webp
+- id: yi
+  title: The Best Reminiscent
+  artist: Yiruma
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b5/ae/26/b5ae2651-542a-9ee9-be4c-278791e2918f/mzi.ncrxyndi.jpg/592x592bb.webp
+- id: sp
+  title: Spring Again
+  artist: July
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f7/bd/ab/f7bdab3a-1cc0-c3de-f7a4-79b276a38f09/artwork.jpg/592x592bb.webp
+- id: hp
+  title: Happiness
+  artist: July
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/9a/55/8e9a5598-f61e-3ee8-5727-dbd25a4d018a/artwork.jpg/592x592bb.webp
+- id: ar
+  title: The Unfinished
+  artist: ARForest
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/84/52/d2/8452d28e-1e07-631c-031e-aa489c9560d4/859735493478_cover.jpg/592x592bb.webp
+- id: xj
+  title: Interstellar
+  artist: Hans Zimmer
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f4/5b/73/f45b735a-8d7a-9713-b217-0f8e1593c28b/794043201943.jpg/592x592bb.webp
+- id: yhz
+  title: Ark Live
+  artist: 野孩子
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/18/80/93/188093ee-1c65-983c-3524-d13067475450/4711508060903.jpg/592x592bb.webp
+- id: cj
+  title: 一無所有
+  artist: 崔健
+  cover: https://i.scdn.co/image/ab67616d0000b27317a3cda13a34a5bd653181b7
+- id: byd
+  title: 光輝嵗月
+  artist: Beyond
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f5/2b/f0/f52bf0c0-78fa-93a0-ce83-26dcdde42a01/20UMGIM42787.rgb.jpg/592x592bb.webp
+- id: it
+  title: Let It Be
+  artist: The Beatles
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ae/98/4c/ae984c7a-cd06-a7cd-e8bf-32cb15ba698d/00602567705475.rgb.jpg/592x592bb.webp
+- id: yu
+  title: 魚図鑑
+  artist: 魚韻/サカナクション
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/73/c1/6b/73c16b4e-5601-422c-1148-1642561056e2/VICL-64991.jpg/592x592bb.webp
+- id: ty
+  title: The Sun Also Rises
+  artist: 久石譲
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5a/c1/d8/5ac1d8ab-5de0-beaf-e400-9cb11b0687ff/886448178330.jpg/592x592bb.webp
+- id: sd
+  title: Merry Christmas, Mr. Lawrence
+  artist: 坂本龍一
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/62/d7/35/62d735b2-a993-a2ad-e08c-5edd9be06202/886448177739.jpg/592x592bb.webp
+- id: bttb
+  title: BTTB
+  artist: 坂本龍一
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6e/8d/82/6e8d82ee-ee42-9020-51ed-daa71ea624ad/881036000154_cover.jpg/592x592bb.webp
+- id: sy
+  title: 四月は君の嘘
+  artist: 横山克
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cc/80/bb/cc80bb6b-3f30-a9e5-d01c-b6b8bc787dc8/jacket_SVWC70044B00Z_550.jpg/592x592bf.webp
+- id: cx
+  title: 春弦
+  artist: 横山克
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/14/d7/25/14d72552-5cfe-9ac3-8ca9-ca18efb7d744/4711099659654.jpg/592x592bb.webp
+- id: scene
+  title: Scene
+  artist: 小松原俊
+  cover: http://p3.music.126.net/98jC9CqY0YUf5tzuOGc3Vg==/2349656348614469.jpg
+- id: tj
+  title: 태극기 휘날리며 Taegukgi
+  artist: 李東峻
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e0/89/9f/e0899f83-b091-2770-65d5-d749b722d164/1963621044589_cover.jpg/592x592bb.webp
+- id: sq
+  title: 山丘
+  artist: 李宗盛
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b8/6e/0e/b86e0ea3-1ad8-b425-5d7b-81d16bcd7a7d/Jonathan_LEE-Hill-cover.jpg/592x592bf.webp
+- id: by
+  title: 白銀飯店
+  artist: 張瑋瑋、郭龍
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/03/7d/e8/037de8b9-444d-1dc9-ec42-1107eb0f41ed/4894944303565.jpg/592x592bb.webp
+- id: wq
+  title: 万能青年旅店
+  artist: Omnipotent Youth Society
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/62/43/86/6243868c-c362-74d0-68d5-1de5e89986ee/cover.jpg/592x592bb.webp
+- id: cd
+  title: 瓦合
+  artist: 草東沒有派對
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b0/f9/38/b0f9387d-f9cb-a50f-e17b-7b2f594f49ae/197188439798.jpg/592x592bb.webp\
+- id: hc
+  title: 火車日記
+  artist: 丟火車
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/90/39/26/90392696-a191-42b7-37ea-1df0dcb52f9f/9787798637236.jpg/592x592bb.webp
+- id: fg
+  title: 梵高先生
+  artist: 李志
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a8/c8/4f/a8c84f2b-cdc2-bb6a-ff90-dbc736e83d60/9787798627176.jpg/592x592bb.webp
+- id: xc
+  title: 在平坦的路面上曲折前行
+  artist: 許岑
+  cover: https://p3.music.126.net/lG2PDtZ8_0pX4X7VgW-YzQ==/5967049604323556.jpg
+- id: ps
+  title: 猎戶星座
+  artist: 朴樹
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/63/f8/5f/63f85f7c-62f3-9501-2744-9cca6697ee18/cover.jpg/592x592bb.webp
+- id: hs
+  title: 紅色推土机
+  artist: 周云蓬
+  cover: https://p3.music.126.net/VVULHW8JG8-a_WGJbHbIlg==/79164837217490.jpg
+- id: js
+  title: 結束バンド
+  artist: Kessoku Band
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/51/3b/00/513b003d-5583-4533-168b-f213c245b53f/4534530141828.jpg/592x592bb.webp
+- id: air
+  title: Air Original Soundtrack
+  artist: VISUAL ARTS / Key
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music/v4/e4/69/aa/e469aafe-5d04-469f-7bd3-cb7853b28dbb/4933032002475_cover.png/592x592bb.webp
+- id: ut
+  title: Undertale Soundtrack
+  artist: Toby Fox
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d3/21/9f/d3219f8b-c2ff-2498-0e87-eb57873b6eca/841787181533.png/592x592bb.webp
+- id: ad
+  title: AD:PIANO VII -Alternative-
+  artist: Diverse System
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/38/4b/ba/384bba14-4967-4d25-fae0-6e3abf599b40/4582451411254_cover.jpg/592x592bb.webp
+- id: sr-2
+  title: Of Snow and Ember
+  artist: HOYO-MiX
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bf/85/2c/bf852cf2-6fbf-d05f-479d-5f2eedb30726/197188755881.jpg/592x592bf.webp
+- id: gs-1
+  title: Millelith's Watch
+  artist: HOYO-MiX
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/31/e3/00/31e30066-1165-59d8-0a82-7e9718782abc/cover.jpg/592x592bf.webp
+- id: mc
+  title: Minecraft - Volume Alpha
+  artist: C418
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7c/04/bf/7c04bfc6-be8c-661a-3306-b97fc2c4999b/859705593825.jpg/592x592bb.webp
+- id: bach
+  title: 'Bach: Cello Suites Nos. 1-6'
+  artist: 馬友友Yo-Yo Ma
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0c/f5/ed/0cf5ed24-02ba-03f4-8c83-ff41dcba5be3/884977621860.jpg/592x592bb.webp
+- id: nxzx
+  title: 南[下]專線
+  artist: 縱貫線
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/91/f0/0f/91f00f7d-a413-2f05-b691-d628f76e5fd5/RD1877.jpg/592x592bb.webp
+- id: lu
+  title: Una Mattina
+  artist: Ludovico Einaudi
+  cover: https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ea/44/86/ea448600-257f-670f-7f06-332e02b42abc/06UMGIM59381.rgb.jpg/592x592bb.webp
+- id: lg
+  title: LG Mobile Sound Archive
+  artist: LG Electronics
+  cover: https://static.wixstatic.com/media/38a635_0c066c43dccc4c2a8ae64235e632a9dc~mv2.jpg/v1/fill/w_700,h_697,al_c,q_85,enc_avif,quality_auto/38a635_0c066c43dccc4c2a8ae64235e632a9dc~mv2.jpg
