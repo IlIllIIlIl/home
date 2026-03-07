@@ -19,7 +19,7 @@ export default defineConfig({
     presetWebFonts({
       provider: 'none',
       fonts: {
-        sans: ['Geist Mono', 'Chocolate Classical Sans', 'Noto Sans KR', 'Noto Sans JP', 'Noto Sans TC', 'IBM Plex Sans TC'],
+        sans: ['Chocolate Classical Sans', 'Noto Sans KR', 'Noto Sans JP', 'Noto Sans TC', 'IBM Plex Sans TC'],
         serif: ['Noto Serif KR', 'Noto Serif JP', 'Noto Serif TC', 'Noto Serif SC'],
         mono: ['Geist Mono', 'JetBrains Mono', 'IBM Plex Mono', 'Noto Sans Mono', 'LXGW WenKai Mono TC'],
       },

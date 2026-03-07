@@ -2,7 +2,8 @@ export const config = {
   name: "Ze Lee",
   title: "lipsum",
   navLinks: [
-    "/writings",
+    '/writings',
+    '/albums'
   ],
   characters: [
     ['Traditional', '李澤'],

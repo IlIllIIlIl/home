@@ -1,4 +1,4 @@
-import { glob } from 'astro/loaders'
+import { file, glob } from 'astro/loaders'
 import { defineCollection, z } from 'astro:content'
 
 const writings = defineCollection({
@@ -19,4 +19,13 @@ const writings = defineCollection({
   }),
 })
 
-export const collections = { writings }
+const albums = defineCollection({
+  loader: file('./content/albums.yaml'),
+  schema: z.object({
+    title: z.string(),
+    artist: z.string(),
+    cover: z.string().optional(),
+  }),
+})
+
+export const collections = { writings, albums }
