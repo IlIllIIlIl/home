@@ -9,7 +9,7 @@ import { config } from '@/config'
   <div
     id="name-popover"
     popover="hint"
-    class="w-72 p-4 rounded-lg space-y-2 text-sm shadow-lg border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100"
+    class="w-72 p-4 rounded-lg space-y-2 text-sm shadow-lg border border-border bg-card text-card-foreground"
   >
     {
       [
@@ -17,10 +17,10 @@ import { config } from '@/config'
         { title: 'Transcriptions', data: config.transcriptions },
       ].map((section) => (
         <>
-          <div class="text-xs font-medium text-neutral-500 dark:text-neutral-400">{section.title}</div>
+          <div class="text-xs font-medium text-muted-foreground">{section.title}</div>
           {section.data.map(([type, form]) => (
             <div class="flex justify-between items-center">
-              <span class="text-neutral-600 dark:text-neutral-300">{type}</span>
+              <span class="text-muted-foreground">{type}</span>
               <span class="font-medium">{form}</span>
             </div>
           ))}

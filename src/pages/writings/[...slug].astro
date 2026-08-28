@@ -18,7 +18,10 @@ const { Content, headings } = await render(writing)
 ---
 
 <BaseLayout {title} {description}>
-  <article class="typography indent-8 prose-h1:indent-0 prose-h2:indent-0 prose-h3:indent-0 prose-blockquote:indent-4" lang="zh-Hant">
+  <article
+    class="typography indent-8 prose-h1:indent-0 prose-h2:indent-0 prose-h3:indent-0 prose-blockquote:indent-4"
+    lang="zh-Hant"
+  >
     <Content />
   </article>
 </BaseLayout>

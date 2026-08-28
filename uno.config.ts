@@ -2,17 +2,33 @@ import { defineConfig, presetAttributify, presetIcons, presetTypography, presetW
 
 export default defineConfig({
   shortcuts: {
-    'bg-background': 'bg-neutral-50 dark:bg-neutral-950',
-    'text-foreground': 'text-neutral-700 dark:text-neutral-200',
-    'text-muted': 'text-neutral-500 dark:text-neutral-400',
-    'typography': ['prose prose-neutral dark:prose-invert', 'prose-h1:font-serif prose-h2:font-serif prose-h3:font-serif prose-h4:font-serif prose-strong:font-serif prose-blockquote:font-mono prose-a:link', 'font-sans text-pretty warp-normal break-normal'],
-    'divide': 'divide-y not-dark:divide-neutral-200 dark:divide-neutral-900',
-    'link': 'underline decoration-offset-3 decoration-current/50 hover:decoration-current transition-colors',
+    typography: ['prose prose-neutral dark:prose-invert', 'prose-h1:font-serif prose-h2:font-serif prose-h3:font-serif prose-h4:font-serif prose-strong:font-serif prose-blockquote:font-mono prose-a:link', 'font-sans text-pretty warp-normal break-normal'],
+    link: 'underline decoration-offset-3 decoration-current/50 hover:decoration-current transition-colors',
+  },
+  theme: {
+    colors: {
+      'background': 'var(--background)',
+      'foreground': 'var(--foreground)',
+      'card': 'var(--card)',
+      'card-foreground': 'var(--card-foreground)',
+      'popover': 'var(--popover)',
+      'popover-foreground': 'var(--popover-foreground)',
+      'primary': 'var(--primary)',
+      'primary-foreground': 'var(--primary-foreground)',
+      'secondary': 'var(--secondary)',
+      'secondary-foreground': 'var(--secondary-foreground)',
+      'muted': 'var(--muted)',
+      'muted-foreground': 'var(--muted-foreground)',
+      'accent': 'var(--accent)',
+      'accent-foreground': 'var(--accent-foreground)',
+      'destructive': 'var(--destructive)',
+      'border': 'var(--border)',
+      'input': 'var(--input)',
+      'ring': 'var(--ring)',
+    },
   },
   presets: [
-    presetWind4({
-      dark: 'media',
-    }),
+    presetWind4(),
     presetAttributify(),
     presetIcons(),
     presetTypography(),
