@@ -1,0 +1,122 @@
+{
+  "diverseSystem": {
+    "name": "Diverse System",
+    "releases": [
+      {
+        "title": "AD:PIANO VII -Alternative-",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/38/4b/ba/384bba14-4967-4d25-fae0-6e3abf599b40/4582451411254_cover.jpg/592x592bb.webp",
+        "genre": "Artcore",
+        "releasedAt": "2022-04",
+        "rating": 5,
+        "tracks": [
+          { "title": "Serendipity", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b6/72/60/b67260d8-59e4-79e4-32eb-98a5bbf2206d/mzaf_14846509002095563003.plus.aac.ep.m4a" },
+          { "title": "Reconstruction of Pandora's Box", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4f/20/d2/4f20d27d-47e5-0559-7758-b9075e0377cf/mzaf_6444473335363355980.plus.aac.ep.m4a" },
+          { "title": "Kaguya", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e1/c5/37/e1c53796-2c5a-e342-98a3-34d7e8c09c4e/mzaf_15857401016911808859.plus.aac.ep.m4a" },
+          { "title": "Illusion Maze", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/af/18/a3/af18a326-0a7e-8a0d-394b-b26e9afa5472/mzaf_13069879065334586776.plus.aac.ep.m4a" },
+          { "title": "Abiogenesis", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1f/0a/9d/1f0a9d76-42ed-dfa9-c679-c9c27c5427aa/mzaf_8818386793303943208.plus.aac.ep.m4a" },
+          { "title": "輪廻", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d4/51/47/d45147e5-3228-03c3-2498-52f8c4ba3060/mzaf_13379340811029887311.plus.aac.ep.m4a" },
+          { "title": "The Unawaited", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/53/ae/dc/53aedc63-4618-0389-6d56-7184a5335588/mzaf_16803089176301987945.plus.aac.ep.m4a" },
+          { "title": "Apotosis", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/50/96/69/50966919-9d50-d211-b7e8-6af275bce6b2/mzaf_2688948223126345827.plus.aac.ep.m4a" },
+          { "title": "不全", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/0e/b8/36/0eb83669-bc85-0819-95d7-08fb94191aaa/mzaf_1362487560209123842.plus.aac.ep.m4a" },
+          { "title": "Wasteland in the Depths", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2e/fc/8d/2efc8d55-844e-5994-8339-5b83345ad24a/mzaf_3164636931176814389.plus.aac.ep.m4a" },
+          { "title": "Memory of Dystopia", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/52/42/0a/52420a4a-9ed6-efc5-84a6-c9df80acc9bc/mzaf_4906980389731729771.plus.aac.ep.m4a" }
+        ]
+      },
+      {
+        "title": "AD:PIANO IX -Alt-",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/74/19/69/741969ec-a5ca-986c-e21b-213e17ae4f5c/859759417474_cover.jpg/592x592bb.webp",
+        "genre": "Artcore",
+        "releasedAt": "2022-12",
+        "rating": 4,
+        "tracks": [
+          { "title": "Immutable", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/eb/4e/e3/eb4ee3ed-b7c8-23d9-79b1-57e93f3532ee/mzaf_18387623221644688176.plus.aac.ep.m4a" },
+          { "title": "Relictos", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/38/ce/aa/38ceaa56-4e94-3394-4b30-eaeb33c0be4d/mzaf_7630213462908232849.plus.aac.ep.m4a" },
+          { "title": "記憶の固執", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ab/dd/b7/abddb721-f0a2-21f1-92d3-cab760c6aa6d/mzaf_10090430095736678194.plus.aac.ep.m4a" },
+          { "title": "Sizumu", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/f6/69/f7/f669f7d9-6cb3-af19-2ef7-863a7701b5ff/mzaf_9961770645809400890.plus.aac.ep.m4a" },
+          { "title": "Chamber of Shackles", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/92/5c/49/925c49e2-a2cf-09b3-7f01-494cd1ce50c0/mzaf_12890717154040274040.plus.aac.ep.m4a" },
+          { "title": "Little Devil's Rhapsody for 4 Large Keys (feat. Pykamia)", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/f4/06/31/f4063129-58bb-8412-6f31-d57879bce4ab/mzaf_481603777871177402.plus.aac.ep.m4a" },
+          { "title": "When You Were Here", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/35/39/d1/3539d18c-abb9-5025-e9ba-0bd25bb1bc98/mzaf_6136142402562161777.plus.aac.ep.m4a" },
+          { "title": "Vacant", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/00/79/0d/00790dc7-e8a5-829a-fc11-78db945fd813/mzaf_3912125557310842524.plus.aac.ep.m4a" },
+          { "title": "The Unawaited", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/53/ae/dc/53aedc63-4618-0389-6d56-7184a5335588/mzaf_16803089176301987945.plus.aac.ep.m4a" },
+          { "title": "Dubblethink", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/3b/5f/48/3b5f48e1-ec11-b914-596e-9ef8c7e387d9/mzaf_334722042500302823.plus.aac.ep.m4a" },
+          { "title": "Liquid Waste Pool", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/b3/59/b9/b359b97c-adec-adcc-dc5e-1b46c4722d55/mzaf_11866043229524910117.plus.aac.ep.m4a" },
+          { "title": "時間工場", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/77/2c/89/772c8956-c80e-4b9a-8506-4d323b3444e6/mzaf_14780058405265010926.plus.aac.ep.m4a" },
+          { "title": "A Voyage to Nowhere", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/a8/68/36/a8683637-9a84-1c7a-7575-2fbf6ed2560d/mzaf_16740140879289521082.plus.aac.ep.m4a" }
+        ]
+      }
+    ]
+  },
+  "seunghwanYoo": {
+    "name": { "en": "Seunghwan Yoo", "ko": "유승환" },
+    "releases": [
+      {
+        "title": "The Unattended",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/08/b8/eb08b8c5-eedd-4116-10ce-4f2624c82934/734167425900_cover.jpg/300x300bb.webp",
+        "genre": "Artcore",
+        "releasedAt": "2022-04",
+        "rating": 5,
+        "tracks": [
+          { "title": "The Unattended", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/b3/fb/6bb3fb12-847c-d76c-81f6-f68daf2f2bb1/mzaf_12072928347519835285.plus.aac.ep.m4a" },
+          { "title": "An Innocent Breeze", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7f/6e/78/7f6e787c-415d-2793-c2f8-70833257ca2d/mzaf_2416416731597370792.plus.aac.ep.m4a" },
+          { "title": "Frailty of the Isolated", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2b/99/92/2b9992c5-9ad1-5850-30e3-637c2c7d8467/mzaf_12623907856882269987.plus.aac.ep.m4a" },
+          { "title": "Remains of the Day", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/38/cf/f838cfb9-8b3c-7b7f-b226-50cfd8727508/mzaf_11221846362959194599.plus.aac.ep.m4a" },
+          { "title": "One Last Thing", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/4c/47/a14c470d-d79a-4f69-7728-fec64379dc44/mzaf_2612869541963358077.plus.aac.ep.m4a" },
+          { "title": "Antler", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/b3/fd/6eb3fdd0-77e9-85a0-61b9-e6bba6ffe283/mzaf_3140188971842393362.plus.aac.ep.m4a" },
+          { "title": "紅旗下的蛋", "url": "" },
+          { "title": "Telophase", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/3b/7d/e43b7dfe-aed7-6625-f76c-6fd8d2328e9c/mzaf_12282765961296026066.plus.aac.ep.m4a" }
+        ]
+      },
+      {
+        "title": "The Unfinished",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/84/52/d2/8452d28e-1e07-631c-031e-aa489c9560d4/859735493478_cover.jpg/592x592bb.webp",
+        "genre": "Artcore",
+        "rating": 4,
+        "tracks": [
+          { "title": "Encounter", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/37/7c/19/377c1951-04da-4184-df8e-133332c821f2/mzaf_1584514967348780772.plus.aac.ep.m4a" },
+          { "title": "Travel Begins", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b3/44/0c/b3440c3e-80e2-c53d-85e0-3cd033f478b5/mzaf_854867803813478475.plus.aac.ep.m4a" },
+          { "title": "Aoba", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a4/cc/23/a4cc23e1-d64f-bdca-06ff-dbf55514ddce/mzaf_220625089060986266.plus.aac.ep.m4a" },
+          { "title": "Unknown Place", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f9/f6/71/f9f67104-f8a7-ab35-8b26-10f26b8610f4/mzaf_11156562289353321958.plus.aac.ep.m4a" },
+          { "title": "It's Alright", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/eb/d5/53/ebd553b7-9cd7-70e8-e2d3-7b7864ce0e63/mzaf_15038410420110216943.plus.aac.ep.m4a" },
+          { "title": "Find Myself", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7e/7c/0a/7e7c0a1f-a2b6-fbce-1e1c-bcd2169d821e/mzaf_17894474968698407005.plus.aac.ep.m4a" },
+          { "title": "Fallen Blossom", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/94/2d/e9/942de900-60a6-8465-a0ba-21a113eb1e93/mzaf_687000774967779525.plus.aac.ep.m4a" },
+          { "title": "Recall", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1c/8a/b9/1c8ab94d-967c-790d-9c9f-6122f3c17f0c/mzaf_11686968101957277185.plus.aac.ep.m4a" },
+          { "title": "Farewell", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f4/24/58/f4245858-64aa-9b3d-8d79-824e4247f02e/mzaf_2156902268605837669.plus.aac.ep.m4a" },
+          { "title": "The Last Page", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3c/23/97/3c239711-d998-b269-bf19-9d8a23421d25/mzaf_415160119563771800.plus.aac.p.m4a" }
+        ]
+      },
+      {
+        "title": "Frost Era",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/3d/1f/f9/3d1ff9b1-39a4-08a6-3be0-06707f36f7ba/859735493164_cover.jpg/592x592bb.webp",
+        "genre": "Artcore",
+        "rating": 4,
+        "tracks": [
+          { "title": "Intro", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b1/4e/25/b14e2533-6553-1e6a-4789-66f83182920a/mzaf_4754282795874952581.plus.aac.ep.m4a" },
+          { "title": "Art for Last", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/62/ec/e262ec89-2328-42f1-edd2-93ee85dd7d6f/mzaf_14275330550141699234.plus.aac.ep.m4a" },
+          { "title": "Clock Atelier", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/72/ed/46/72ed4602-e317-e3a8-1788-b1cd7e511d82/mzaf_16308827653399338758.plus.aac.p.m4a" },
+          { "title": "Flashback (Extended Mix)", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a1/b8/7b/a1b87b8a-c367-07e8-35aa-171f6b7d7ad5/mzaf_8420404598123195186.plus.aac.ep.m4a" },
+          { "title": "Birds of Plague", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b6/b0/e2/b6b0e2d5-b103-03c0-2ff3-c612a5721364/mzaf_13693331023372249810.plus.aac.ep.m4a" },
+          { "title": "Regret", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/50/09/2f/50092f73-8829-da83-74fb-8a5f797863d3/mzaf_7370011626384214895.plus.aac.ep.m4a" },
+          { "title": "Final Resonance", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3f/3c/62/3f3c62cb-c252-6fe7-8a53-33e9b1c70045/mzaf_2152123787463060553.plus.aac.p.m4a" },
+          { "title": "Recall", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1c/8a/b9/1c8ab94d-967c-790d-9c9f-6122f3c17f0c/mzaf_11686968101957277185.plus.aac.ep.m4a" },
+          { "title": "Art for Last", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4a/c4/23/4ac423b3-8fa1-5150-4893-4783b899d8f4/mzaf_934013531187970481.plus.aac.ep.m4a" },
+          { "title": "Hemisphere (Remake Ver.)", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1e/0a/50/1e0a5053-e762-c811-bd1f-2e0edc4fa2d0/mzaf_13163927787404915281.plus.aac.ep.m4a" }
+        ]
+      },
+      {
+        "title": "entr'acte",
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/52/7e/7f/527e7f4d-ed9a-4f04-3d4f-703b78b3749f/730530037640_cover.jpg/592x592bb.webp",
+        "genre": "Ambient",
+        "rating": 4,
+        "tracks": [
+          { "title": "entrance", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/87/37/47/8737479d-b4d1-0d3b-7a88-adb21943375f/mzaf_13244475778704807491.plus.aac.ep.m4a" },
+          { "title": "enclosure", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e3/a2/45/e3a245c7-63cf-c273-5055-b03281536875/mzaf_5153093236426296695.plus.aac.ep.m4a" },
+          { "title": "where am I", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/8b/db/2d8bdbea-3789-d9ca-3440-48a0b2451234/mzaf_2481354231833403163.plus.aac.ep.m4a" },
+          { "title": "sleepwalking", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/71/58/a0/7158a0dd-f599-cf2e-3147-3d4d24c95c94/mzaf_10247986652612591770.plus.aac.ep.m4a" },
+          { "title": "wandering", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/21/b1/eb/21b1eb5a-ec3b-59cc-fb35-fc50eaf695aa/mzaf_8776894639536431051.plus.aac.ep.m4a" },
+          { "title": "nirvana", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/06/4e/0f064ef7-44ff-d0ff-e3ba-0cfb2a1801f1/mzaf_1027907931655929474.plus.aac.ep.m4a" },
+          { "title": "notre élan", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/0c/33/240c33fd-72ee-0381-9b7b-0d18c06ec55b/mzaf_6986485597685288530.plus.aac.ep.m4a" }
+        ]
+      }
+    ]
+  }
+}

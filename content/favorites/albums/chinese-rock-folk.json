@@ -1,0 +1,149 @@
+{
+  "cuiJian": {
+    "name": { "en": "Cui Jian", "zh": "崔健" },
+    "releases": [
+      {
+        "title": { "en": "Balls Under The Red Flag", "zh": "紅旗下的蛋" },
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d4/ad/4e/d4ad4ed2-1501-4a78-2d0a-61e7eb3261b0/cover.jpg/592x592bb.webp",
+        "genre": "Art Rock",
+        "rating": 5,
+        "tracks": [
+          { "title": "飛了", "url": "" },
+          { "title": "寬容", "url": "" },
+          { "title": "紅旗下的蛋", "url": "" },
+          { "title": "北京故事", "url": "" },
+          { "title": "盒子", "url": "" },
+          { "title": "最後的抱怨", "url": "" },
+          { "title": "誤會", "url": "" },
+          { "title": "彼岸", "url": "" }
+        ]
+      },
+      {
+        "title": { "en": "Solution", "zh": "解決" },
+        "cover": "https://i.scdn.co/image/ab67616d0000e1a38226fcc282d0ce5a5326625d",
+        "genre": "Art Rock",
+        "rating": 5
+      },
+      {
+        "title": { "en": "Blue Bone", "zh": "藍色骨頭" },
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b6/ad/e7/b6ade7d8-9ac2-fc7f-5af7-0453da85abd3/cover.jpg/592x592bf.webp",
+        "rating": 4
+      },
+      {
+        "title": { "en": "A Flying Dog", "zh": "飛狗" },
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ca/21/25/ca2125c7-fcc9-5d0b-80eb-0394e3e2751c/21UMGIM70707.rgb.jpg/592x592bf.webp",
+        "releasedAt": "2021-08",
+        "rating": 4
+      }
+    ]
+  },
+  "omnipotentYouthSociety": {
+    "name": { "en": "Omnipotent Youth Society", "zh": "万能青年旅店" },
+    "releases": [
+      {
+        "title": { "en": "Omnipotent Youth Society", "zh": "万能青年旅店 同名專輯" },
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/62/43/86/6243868c-c362-74d0-68d5-1de5e89986ee/cover.jpg/592x592bf.webp",
+        "genre": "Alternative Rock",
+        "releasedAt": "2010-11",
+        "rating": 5,
+        "tracks": [
+          { "title": "狗尿館", "url": "" },
+          { "title": "不萬能的喜劇", "url": "" },
+          { "title": "揪心的玩笑與漫長的白日夢", "url": "" },
+          { "title": "大石碎胸口", "url": "" },
+          { "title": "洋鳥消夏錄", "url": "" },
+          { "title": "秦皇島", "url": "" },
+          { "title": "十萬嬉皮", "url": "" },
+          { "title": "在這顆行星所有的酒館", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/9f/32/92/9f329283-8a30-61dc-a59c-4a4d6484d04d/mzaf_4251085477020322433.plus.aac.ep.m4a" },
+          { "title": "殺死那個石家莊人", "url": "" }
+        ]
+      },
+      {
+        "title": { "en": "Inside the Cable Temple", "zh": "冀西南林路行" },
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/c5/bd/a6/c5bda6ad-0ed6-849d-dc07-c6b527c0b5aa/cover.jpg/592x592bf.webp",
+        "genre": "Prog-Rock/Art Rock",
+        "releasedAt": "2020-12",
+        "rating": 5,
+        "tracks": [
+          { "title": "早", "url": "" },
+          { "title": "泥河", "url": "" },
+          { "title": "平等雲霧", "url": "" },
+          { "title": "採石", "url": "" },
+          { "title": "山雀", "url": "" },
+          { "title": "繞越", "url": "" },
+          { "title": "河北墨麒麟", "url": "" },
+          { "title": "郊眠寺", "url": "" }
+        ]
+      }
+    ]
+  },
+  "zhangWeiwei": {
+    "name": { "en": "Zhang Weiwei", "zh": "張瑋瑋" },
+    "releases": [
+      {
+        "title": { "en": "Baiyin Hotel", "zh": "白銀飯店" },
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/03/7d/e8/037de8b9-444d-1dc9-ec42-1107eb0f41ed/4894944303565.jpg/592x592bb.webp",
+        "genre": "Contemporary Folk",
+        "releasedAt": "2012-05",
+        "rating": 4,
+        "tracks": [
+          { "title": "霧都孤兒", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/91/56/2d/91562dec-6b23-ceb2-4de7-323af7c4e60f/mzaf_8571028544811458645.plus.aac.ep.m4a" },
+          { "title": "白銀飯店", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/1c/f1/7b/1cf17bad-3aff-8baf-736d-0b09a4c15a71/mzaf_4808400522546157358.plus.aac.ep.m4a" },
+          { "title": "秀水街", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/db/4a/28/db4a281c-7840-31e2-eca2-2fd681f2d448/mzaf_14683555834828410795.plus.aac.ep.m4a" },
+          { "title": "廟會", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/0a/7b/99/0a7b99e9-d694-f82c-abf9-6c3ac7009b36/mzaf_10428223460948943772.plus.aac.ep.m4a" },
+          { "title": "永安里", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/23/a3/4f/23a34f1a-92e1-eef0-e254-4f4c7a4858bd/mzaf_672339876372041574.plus.aac.ep.m4a" },
+          { "title": "米店", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e8/b5/d2/e8b5d2e0-cdd2-2e50-1e35-2d231f33d7c7/mzaf_7022420414663728336.plus.aac.ep.m4a" },
+          { "title": "小路", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/61/e4/e8/61e4e8e3-169c-08d0-3acb-db723c8dd2d9/mzaf_16086535299872518985.plus.aac.ep.m4a" },
+          { "title": "哪一位上帝會原諒我們呢", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/8b/fd/b5/8bfdb58f-1414-29fa-f11c-efe7462fc4cf/mzaf_12722745336949109362.plus.aac.ep.m4a" },
+          { "title": "一個人", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/2d/92/80/2d9280cb-2cd0-60d6-3894-8312195fd484/mzaf_12549653356552345126.plus.aac.ep.m4a" }
+        ]
+      },
+      {
+        "title": { "en": "2020", "zh": "二零二零" },
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/8f/9c/108f9c2a-f638-2ad8-2582-e4ed9fb3b1ca/zhangweiwei.jpg/592x592bb.webp",
+        "releasedAt": "2022-01",
+        "rating": 3
+      }
+    ]
+  },
+  "liZhi": {
+    "name": { "en": "Li Zhi", "zh": "李志" },
+    "releases": [
+      {
+        "title": { "en": "Through Every Sad Street", "zh": "在每一條傷心的應天大街上" },
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5e/d0/d4/5ed0d4a0-317e-bcfe-cce0-faed3f3d94f5/9787883302223.jpg/592x592bb.webp",
+        "genre": "Folk Rock",
+        "rating": 3,
+        "tracks": [
+          { "title": "在每一條傷心的應天大街上", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/57/aa/b2/57aab2af-42ba-e25e-a1c2-1fcf09ca9e83/mzaf_16269901079686013285.plus.aac.ep.m4a" },
+          { "title": "一頭偶像", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5d/f5/a5/5df5a5e7-42d3-dc5f-9801-d65e803caea7/mzaf_7122558628556461914.plus.aac.ep.m4a" },
+          { "title": "克蘭河", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e9/7e/a0/e97ea04b-601f-a1b4-3b0b-74fc3966bea2/mzaf_15915437101607996292.plus.aac.ep.m4a" },
+          { "title": "死人", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a4/84/48/a484487a-44ab-59d9-bd1e-a32e04f21214/mzaf_7730132574558075165.plus.aac.ep.m4a" },
+          { "title": "哦吼", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ea/6d/bc/ea6dbcb4-33b9-6e9c-1c65-3071d4bdffe3/mzaf_9428416940585930627.plus.aac.ep.m4a" },
+          { "title": "彩色派對", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/81/34/75/81347577-a508-7d29-434b-c69002d79c27/mzaf_4478232702017997349.plus.aac.ep.m4a" }
+        ]
+      },
+      {
+        "title": { "en": "Li Zhi Band and Orchestra", "zh": "李志、電聲與管弦樂" },
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/07/ec/9a/07ec9a71-3a9b-bf7a-9697-1795b4d0254f/9787883303626.jpg/592x592bf.webp",
+        "genre": "Folk Rock",
+        "rating": 4,
+        "tracks": [
+          { "title": "序曲", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5f/55/b7/5f55b7a5-cd28-854e-6587-ff0794a2d4b8/mzaf_8366464714533222905.plus.aac.ep.m4a" },
+          { "title": "大象", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/be/8f/fe/be8ffee9-30a3-3ae7-b9c7-a8a6262a67c4/mzaf_10327588695673517448.plus.aac.ep.m4a" },
+          { "title": "回答", "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/87/18/ae/8718aefb-b6ca-be22-1a59-a471661dd114/mzaf_8969579809779129243.plus.aac.ep.m4a" }
+        ]
+      },
+      {
+        "title": { "en": "Rice Store", "zh": "米店" },
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b8/0e/3d/b80e3d10-de05-28ab-b3d3-2e815de0482f/9787880973792.jpg/592x592bf.webp",
+        "rating": 3
+      },
+      {
+        "title": { "en": "Mr. Van Gogh", "zh": "梵高先生（2015看見版）" },
+        "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/04/32/2b/04322b0d-782e-b58b-6088-6fc607504796/9555150725286.jpg/592x592bb.webp",
+        "rating": 3
+      }
+    ]
+  }
+}

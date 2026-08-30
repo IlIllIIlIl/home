@@ -3,7 +3,7 @@ export const config = {
   title: "lipsum",
   navLinks: [
     '/writings',
-    '/albums'
+    '/favorites/albums'
   ],
   characters: [
     ['Traditional', '李澤'],

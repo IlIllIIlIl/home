@@ -1,6 +1,7 @@
 ---
 import PageHero from '@/components/PageHero.astro'
 import Writing from '@/components/Writing.astro'
+import Details from '@/components/global/Details.astro'
 import BaseLayout from '@/layouts/BaseLayout.astro'
 import { getCollection } from 'astro:content'
 
@@ -24,18 +25,13 @@ const drafts = writings.filter((w) => w.data.draft)
   </div>
   {
     drafts.length > 0 && (
-      <details open>
-        <summary class="flex items-center text-muted-foreground hover:text-foreground transition-colors list-none py-3">
-          <span class="font-mono mr-3">Drafts ({drafts.length})</span>
-          <hr class="flex-1 h-px border-border" />
-        </summary>
-
-        <div class="divide">
+      <Details title={`Drafts (${drafts.length})`}>
+        <div class="divide-y border-border">
           {drafts.map((writing) => (
             <Writing {writing} />
           ))}
         </div>
-      </details>
+      </Details>
     )
   }
   <p class="mt-3 text-muted-foreground text-xs">
