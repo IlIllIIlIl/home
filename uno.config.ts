@@ -2,9 +2,10 @@ import { defineConfig, presetAttributify, presetIcons, presetTypography, presetW
 
 export default defineConfig({
   shortcuts: {
-    typography: ['prose prose-neutral dark:prose-invert', 'prose-h1:font-serif prose-h2:font-serif prose-h3:font-serif prose-h4:font-serif prose-strong:font-serif prose-blockquote:font-mono prose-a:link', 'font-sans text-pretty warp-normal break-normal'],
-    divide: 'divide-y divide-border',
-    link: 'underline decoration-offset-3 decoration-current/50 hover:decoration-current transition-colors',
+    'typography': ['prose prose-neutral dark:prose-invert', 'prose-h1:font-serif prose-h2:font-serif prose-h3:font-serif prose-h4:font-serif prose-strong:font-serif prose-blockquote:font-mono prose-a:link', 'font-sans text-pretty warp-normal break-normal'],
+    'divide': 'divide-y divide-border',
+    'divide-dot': 'mr-2 after:(content-["·"] ml-2 text-border) last:(mr-0 after:content-none)',
+    'link': 'underline decoration-offset-3 decoration-current/50 hover:decoration-current transition-colors',
   },
   theme: {
     colors: {

@@ -1,8 +1,8 @@
 ---
 import PageHero from '@/components/PageHero.astro'
-import Writing from '@/components/Writing.astro'
-import Details from '@/components/global/Details.astro'
+import Details from '@/components/ui/details.astro'
 import BaseLayout from '@/layouts/BaseLayout.astro'
+import { formatDate } from '@/utils/format'
 import { getCollection } from 'astro:content'
 
 const writings = await getCollection('writings', ({ data }) => {
@@ -21,22 +21,33 @@ const drafts = writings.filter((w) => w.data.draft)
 <BaseLayout>
   <PageHero title="Writings" character="寫" description="不要因爲走得太遠，就忘記當初爲什麼出發。" />
   <div class="divide">
-    {writings.filter((w) => !w.data.draft).map((writing) => <Writing {writing} />)}
+    {
+      writings
+        .filter((w) => !w.data.draft)
+        .map((writing) => (
+          <a
+            href={`/writings/${writing.id}`}
+            class="flex items-center py-6 sm:py-3 hover:opacity-80 transition-opacity"
+          >
+            <div class="flex-1 items-center">
+              <span class="font-sans">{writing.data.title}</span>
+              <span class="text-muted font-mono hidden text-sm transition-opacity">{writing.id}</span>
+            </div>
+            <span
+              class:list={[
+                'text-muted font-sans text-sm',
+                writing.data.updated && 'underline decoration-dashed decoration-offset-6 decoration-opacity-20',
+              ]}
+              title={writing.data.updated && `易於${formatDate(writing.data.updated as Date)}`}
+            >
+              {writing.data.date && formatDate(writing.data.date as Date)}
+            </span>
+          </a>
+        ))
+    }
   </div>
-  {
-    drafts.length > 0 && (
-      <Details title={`Drafts (${drafts.length})`}>
-        <div class="divide-y border-border">
-          {drafts.map((writing) => (
-            <Writing {writing} />
-          ))}
-        </div>
-      </Details>
-    )
-  }
   <p class="mt-3 text-muted-foreground text-xs">
     All original texts are under
-    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" class="link">CC BY-NC-SA 4.0</a
-    >.
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" class="link">CC BY-NC-SA 4.0</a>
   </p>
 </BaseLayout>
