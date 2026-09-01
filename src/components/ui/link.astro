@@ -9,7 +9,7 @@ const { href, ...props } = Astro.props as Props
 
 {
   href === pathname ? (
-    <span class="font-medium" {...props}>
+    <span {...props}>
       <slot />
     </span>
   ) : (

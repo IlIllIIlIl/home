@@ -1,0 +1,47 @@
+---
+import { config } from '@/config'
+import PageHeader from '@/components/layout/page-header.astro'
+---
+
+<PageHeader description={config.job}>
+  <button slot="title" id="name-trigger" interestfor="name-popover" class="cursor-help">
+    <h1 class="text-lg contents">{config.name.en}</h1>
+  </button>
+</PageHeader>
+<div-popover
+  id="name-popover"
+  popover="hint"
+  class="w-72 p-4 mt-2 space-y-2 text-sm shadow-lg border border-border bg-card text-card-foreground"
+>
+  {
+    [
+      { title: 'Characters', data: config.name.characters },
+      { title: 'Transcriptions', data: config.name.transcriptions },
+    ].map((section) => (
+      <>
+        <div class="flex items-center">
+          <div class="text-xs font-medium mr-2">{section.title}</div>
+          <hr class="flex-1 h-px border-border border-dashed" />
+        </div>
+        {section.data.map(({ type, form, lang }) => (
+          <div class="flex justify-between items-center">
+            <span class="text-muted-foreground">{type}</span>
+            <span class="font-sans font-medium" lang={lang}>
+              {form}
+            </span>
+          </div>
+        ))}
+      </>
+    ))
+  }
+</div-popover>
+
+<style>
+  #name-trigger {
+    anchor-name: --name-anchor;
+  }
+  #name-popover {
+    position-anchor: --name-anchor;
+    position-area: bottom span-right;
+  }
+</style>

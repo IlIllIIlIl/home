@@ -1,22 +1,21 @@
 export const config = {
-  name: "Ze Lee",
   title: "lipsum",
+  name: {
+    en: "Ze Lee",
+    characters: [
+      { type: 'Traditional', form: '李澤', lang: 'zh-Hant' },
+      { type: 'Simplified', form: '李泽', lang: 'zh-Hans' },
+      { type: 'Shinjitai', form: '李沢', lang: 'ja-Jpan' },
+    ],
+    transcriptions: [
+      { type: 'Bopomofo', form: 'ㄌㄧˇ ㄗㄜˊ', lang: 'zh-Bopo' },
+      { type: 'Hanyu Pinyin', form: 'Lǐ Zé', lang: 'zh-Latn-pinyin' },
+      { type: 'Wade-Giles', form: 'Li Tsê', lang: 'zh-Latn-wadegile' },
+    ],
+  },
+  job: '"Floral Artisan"',
   navLinks: [
     '/writings',
     '/favorites/albums'
-  ],
-  characters: [
-    ['Traditional', '李澤'],
-    ['Simplified', '李泽'],
-    ['Shinjitai', '李沢'],
-  ],
-  transcriptions: [
-    ['Bopomofo', 'ㄌㄧˇ ㄗㄜˊ'],
-    ['Hanyu Pinyin', 'Lǐ Zé'],
-    ['Wade-Giles', 'Li Tsê'],
-    // ['Gwoyeu Romatzyh', 'Lii Tzer'],
-    // ['Jyutping', 'lei5 zak1'],
-    // ['Yale', 'léih jaahk'],
-    // ['IPA', 'liː tsɛk'],
   ],
 }

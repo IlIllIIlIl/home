@@ -1,7 +1,6 @@
 ---
-import PageHero from '@/components/PageHero.astro'
-import Details from '@/components/ui/details.astro'
-import BaseLayout from '@/layouts/BaseLayout.astro'
+import PageHeader from '@/components/layout/page-header.astro'
+import BaseLayout from '@/layouts/base-layout.astro'
 import { formatDate } from '@/utils/format'
 import { getCollection } from 'astro:content'
 
@@ -19,7 +18,7 @@ const drafts = writings.filter((w) => w.data.draft)
 ---
 
 <BaseLayout>
-  <PageHero title="Writings" character="寫" description="不要因爲走得太遠，就忘記當初爲什麼出發。" />
+  <PageHeader title="Writings" character="寫" description="不要因爲走得太遠，就忘記當初爲什麼出發。" />
   <div class="divide">
     {
       writings

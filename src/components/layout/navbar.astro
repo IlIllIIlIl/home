@@ -1,0 +1,34 @@
+---
+import { config } from '@/config'
+import Link from '@/components/ui/link.astro'
+
+const isHome = Astro.url.pathname === '/'
+---
+
+<div class="sticky h-20 pointer-events-none absolute inset-x-0 bottom-0 w-full z-10">
+  <nav
+    class="absolute left-0 right-0 bottom-2.5 flex gap-0.5 text-muted size-full max-w-xl mx-auto items-end relative z-10 pointer-events-auto"
+  >
+    <a href="/" class="button-ghost">home</a>
+    {
+      config.navLinks.map((href) => (
+        <Link href={href} class="button-ghost transition-colors">
+          {href}
+        </Link>
+      ))
+    }
+  </nav>
+  <div
+    class="absolute left-0 right-0 bottom-0 h-[80%] backdrop-blur-[2px] [mask-image:linear-gradient(to_top,var(--background)_0%,var(--background)_75%,transparent_100%)]"
+  >
+  </div>
+  <div
+    class="absolute left-0 right-0 bottom-0 h-[80%] backdrop-blur-[6px] [mask-image:linear-gradient(to_top,var(--background)_0%,var(--background)_40%,transparent_70%)]"
+  >
+  </div>
+  <div
+    class="absolute left-0 right-0 bottom-0 h-[80%] backdrop-blur-[14px] [mask-image:linear-gradient(to_top,var(--background)_0%,transparent_40%)]"
+  >
+  </div>
+  <div class="absolute inset-0 bg-gradient-to-t from-background/95 to-transparent"></div>
+</div>

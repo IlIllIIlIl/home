@@ -1,0 +1,10 @@
+---
+const { title, character, description } = Astro.props
+---
+
+<header class="space-y-2 pb-4 text-left">
+  <slot name="title">
+    <h1 class="text-lg">{title}</h1>
+  </slot>
+  <p class="text-sm text-muted-foreground">{description}</p>
+</header>

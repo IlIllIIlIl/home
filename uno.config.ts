@@ -6,6 +6,11 @@ export default defineConfig({
     'divide': 'divide-y divide-border',
     'divide-dot': 'mr-2 after:(content-["·"] ml-2 text-border) last:(mr-0 after:content-none)',
     'link': 'underline decoration-offset-3 decoration-current/50 hover:decoration-current transition-colors',
+    'button': 'inline-flex items-center justify-center gap-2 px-2 py-0.5 whitespace-nowrap transition-[color,background-color,transform] disabled:(pointer-events-none op-50) active:translate-y-px',
+    'button-ghost': ['button', 'text-muted-foreground hover:(bg-muted/50 text-foreground)'],
+    'button-primary': ['button', 'bg-primary text-primary-foreground shadow-sm hover:bg-primary/80'],
+    'button-secondary': ['button', 'bg-secondary text-secondary-foreground border border-input hover:bg-secondary/80'],
+    'button-outline': ['button', 'border border-input bg-background hover:(bg-secondary text-secondary-foreground)'],
   },
   theme: {
     colors: {
@@ -37,9 +42,9 @@ export default defineConfig({
     presetWebFonts({
       provider: 'none',
       fonts: {
-        sans: ['Chocolate Classical Sans', 'Noto Sans KR', 'Noto Sans JP', 'Noto Sans TC', 'IBM Plex Sans TC'],
-        serif: ['Noto Serif KR', 'Noto Serif JP', 'Noto Serif TC', 'Noto Serif SC'],
-        mono: ['Geist Mono', 'JetBrains Mono', 'IBM Plex Mono', 'Noto Sans Mono', 'LXGW WenKai Mono TC'],
+        sans: ['IBM Plex Sans', 'Chocolate Classical Sans', 'Noto Sans KR', 'Noto Sans JP', 'Noto Sans TC'],
+        serif: ['IBM Plex Serif', 'Noto Serif KR', 'Noto Serif JP', 'Noto Serif TC', 'Noto Serif SC'],
+        mono: ['IBM Plex Mono', 'Noto Sans Mono', 'Geist Mono', 'JetBrains Mono', 'LXGW WenKai Mono TC', 'IBM Plex Sans TC'],
       },
     }),
   ],
