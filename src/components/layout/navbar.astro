@@ -1,17 +1,15 @@
 ---
-import { config } from '@/config'
+import { appConfig } from '@/config'
 import Link from '@/components/ui/link.astro'
-
-const isHome = Astro.url.pathname === '/'
 ---
 
-<div class="sticky h-20 pointer-events-none absolute inset-x-0 bottom-0 w-full z-10">
+<div class="sticky h-16 pointer-events-none absolute inset-x-0 bottom-0 w-full z-10">
   <nav
     class="absolute left-0 right-0 bottom-2.5 flex gap-0.5 text-muted size-full max-w-xl mx-auto items-end relative z-10 pointer-events-auto"
   >
     <a href="/" class="button-ghost">home</a>
     {
-      config.navLinks.map((href) => (
+      appConfig.navLinks.map((href) => (
         <Link href={href} class="button-ghost transition-colors">
           {href}
         </Link>

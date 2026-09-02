@@ -1,7 +1,7 @@
-export const config = {
-  title: "lipsum",
+export const appConfig = {
+  title: 'lipsum',
   name: {
-    en: "Ze Lee",
+    en: 'Ze Lee',
     characters: [
       { type: 'Traditional', form: '李澤', lang: 'zh-Hant' },
       { type: 'Simplified', form: '李泽', lang: 'zh-Hans' },
@@ -16,6 +16,6 @@ export const config = {
   job: '"Floral Artisan"',
   navLinks: [
     '/writings',
-    '/favorites/albums'
+    '/albums',
   ],
 }

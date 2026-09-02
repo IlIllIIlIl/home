@@ -4,6 +4,9 @@ import BaseLayout from '@/layouts/base-layout.astro'
 import { formatDate } from '@/utils/format'
 import { getCollection } from 'astro:content'
 
+const title = "Writings"
+const description = "Don't forget why you started just because you've gone too far."
+
 const writings = await getCollection('writings', ({ data }) => {
   return data.private !== true
 }).then((writings) => {
@@ -18,7 +21,7 @@ const drafts = writings.filter((w) => w.data.draft)
 ---
 
 <BaseLayout>
-  <PageHeader title="Writings" character="寫" description="不要因爲走得太遠，就忘記當初爲什麼出發。" />
+  <PageHeader {title} {description} />
   <div class="divide">
     {
       writings
@@ -47,6 +50,6 @@ const drafts = writings.filter((w) => w.data.draft)
   </div>
   <p class="mt-3 text-muted-foreground text-xs">
     All original texts are under
-    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" class="link">CC BY-NC-SA 4.0</a>
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" class="ml-1 link">CC BY-NC-SA 4.0</a>
   </p>
 </BaseLayout>

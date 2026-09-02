@@ -1,11 +1,11 @@
 ---
-import { config } from '@/config'
+import { appConfig } from '@/config'
 import PageHeader from '@/components/layout/page-header.astro'
 ---
 
-<PageHeader description={config.job}>
-  <button slot="title" id="name-trigger" interestfor="name-popover" class="cursor-help">
-    <h1 class="text-lg contents">{config.name.en}</h1>
+<PageHeader description={appConfig.job}>
+  <button slot="title" id="name-trigger" class="cursor-help" {...{ interestfor: 'name-popover' }}>
+    <h1 class="text-lg contents">{appConfig.name.en}</h1>
   </button>
 </PageHeader>
 <div-popover
@@ -15,8 +15,8 @@ import PageHeader from '@/components/layout/page-header.astro'
 >
   {
     [
-      { title: 'Characters', data: config.name.characters },
-      { title: 'Transcriptions', data: config.name.transcriptions },
+      { title: 'Characters', data: appConfig.name.characters },
+      { title: 'Transcriptions', data: appConfig.name.transcriptions },
     ].map((section) => (
       <>
         <div class="flex items-center">

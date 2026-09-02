@@ -1,6 +1,6 @@
 ---
 import Navbar from '@/components/layout/navbar.astro'
-import { config } from '@/config'
+import { appConfig } from '@/config'
 
 import '@/styles/colors.css'
 ---
@@ -28,7 +28,7 @@ import '@/styles/colors.css'
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>{config.title}</title>
+    <title>{appConfig.title}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&display=swap" rel="stylesheet" />
@@ -39,7 +39,7 @@ import '@/styles/colors.css'
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&display=swap" rel="stylesheet" />
   </head>
   <body class="relative mx-auto bg-background text-foreground antialiased select-text selection:bg-primary/20">
-    <main class="px-2 sm:px-0 py-12 min-h-[calc(100vh-5rem)] max-w-xl mx-auto">
+    <main class="px-2 py-16 min-h-[calc(100vh-4rem)] max-w-xl mx-auto">
       <slot />
     </main>
     <Navbar />

@@ -1,5 +1,6 @@
 import { glob } from 'astro/loaders'
-import { defineCollection, z } from 'astro:content'
+import { z } from 'astro/zod'
+import { defineCollection } from 'astro:content'
 
 const writings = defineCollection({
   loader: glob({ pattern: '**/[^_]*.(md|mdx)', base: './content/writings' }),
@@ -15,20 +16,18 @@ const writings = defineCollection({
 
 const albums = defineCollection({
   loader: glob({ pattern: '**.json', base: './content/favorites/albums' }),
-  schema: z.record(
-    z.object({
-      name: z.union([z.string(), z.record(z.string())]),
-      releases: z.array(z.object({
-        title: z.union([z.string(), z.record(z.string())]),
-        url: z.string().optional(),
-        cover: z.string().optional(),
-        genre: z.string().optional(),
-        releasedAt: z.string().optional(),
-        rating: z.number().min(1).max(5).optional(),
-        tracks: z.array(z.object({ title: z.string(), url: z.string().optional(), preview: z.boolean().optional() })).optional(),
-      })),
-    }),
-  ),
+  schema: z.record(z.string(), z.object({
+    name: z.union([z.string(), z.record(z.string(), z.string())]),
+    releases: z.array(z.object({
+      title: z.union([z.string(), z.record(z.string(), z.string())]),
+      url: z.string().optional(),
+      cover: z.string().optional(),
+      genre: z.string().optional(),
+      releasedAt: z.string().optional(),
+      rating: z.number().min(1).max(5).optional(),
+      tracks: z.array(z.object({ title: z.string(), url: z.string().optional(), preview: z.boolean().optional() })).optional(),
+    })),
+  })),
 })
 
 export const collections = { writings, albums }

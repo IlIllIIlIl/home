@@ -1,0 +1,181 @@
+---
+import PageHeader from '@/components/layout/page-header.astro'
+import Details from '@/components/ui/details.astro'
+import Dialog from '@/components/ui/dialog.astro'
+import BaseLayout from '@/layouts/base-layout.astro'
+import { getCollection } from 'astro:content'
+
+const title = "Albums"
+const description = "Best selections of releases demoed or used in my past projects."
+
+const albums = await getCollection('albums')
+
+function resolveName(name: string | Record<string, string> | undefined, full = false): string {
+  if (!name || typeof name === 'string') return name || ''
+  const values = Object.values(name)
+  const english = name.en ?? values[0] ?? ''
+  return full ? [...values.filter((v) => v !== english), `(${english})`].join(' ') : english
+}
+
+const groups = albums
+  .map((collection) => ({
+    key: collection.id,
+    items: Object.entries(collection.data)
+      .flatMap(([_, artist]) => artist.releases.map((r) => ({ ...r, artist: artist.name })))
+      .sort((a, b) => {
+        const ra = a.rating ?? 0
+        const rb = b.rating ?? 0
+        if (ra !== rb) return rb - ra
+        return resolveName(a.title).localeCompare(resolveName(b.title))
+      }),
+  }))
+  .sort((a, b) => a.key.localeCompare(b.key))
+---
+
+<BaseLayout>
+  <audio id="albums-player" class="hidden" loop></audio>
+  <PageHeader {title} {description} />
+  <div>
+    {
+      groups.map((group) => (
+        <Details title={group.key}>
+          {(() => {
+            const albums = group.items.filter((i) => i.tracks)
+            const singles = group.items.filter((i) => !i.tracks)
+            return (
+              <>
+                {albums.length > 0 && (
+                  <div class="grid grid-cols-3 gap-2 items-center font-sans py-2">
+                    {albums.map((item) => {
+                      const previewTrack =
+                        item.tracks?.find((t) => t.preview && t.url) ?? item.tracks?.find((t) => t.url)
+                      const previewUrl = previewTrack?.url
+                      return (
+                        <>
+                          <Dialog id={`album-${resolveName(item.title)}`} className="w-sm">
+                            <div class="flex gap-2 pointer-events-none">
+                              {item.cover && (
+                                <img
+                                  src={item.cover}
+                                  alt={resolveName(item.title)}
+                                  class="size-16 border border-border shrink-0"
+                                />
+                              )}
+                              <div class="min-w-0 text-sm text-muted-foreground">
+                                <h3 class="text-base text-foreground font-medium truncate">
+                                  {resolveName(item.title, true)}
+                                </h3>
+                                <p class="truncate">{resolveName(item.artist, true)}</p>
+                                <div class="flex">
+                                  {item.genre && <p class="divide-dot">{item.genre}</p>}
+                                  {item.releasedAt && <p class="pr-2 last:pr-0">{item.releasedAt}</p>}
+                                </div>
+                              </div>
+                            </div>
+                            {item.tracks && item.tracks.length > 0 && (
+                              <ol class="mt-2 divide-y divide-border text-sm text-muted-foreground">
+                                {item.tracks.map((track) => (
+                                  <li
+                                    data-track-url={track.url}
+                                    class="group flex justify-between items-center gap-2 py-2 last:pb-0"
+                                  >
+                                    <span class="group-hover:text-foreground transition-colors truncate pointer-events-none">
+                                      {track.title}
+                                    </span>
+                                    {track.url && (
+                                      <button class="group-hover:text-foreground transition-colors shrink-0">▶</button>
+                                    )}
+                                  </li>
+                                ))}
+                              </ol>
+                            )}
+                            <div slot="actions" class="contents">
+                              {previewUrl && (
+                                <button data-track-url={previewUrl} class="button-secondary">
+                                  Preview
+                                </button>
+                              )}
+                              <form method="dialog">
+                                <button class="button-outline">Close</button>
+                              </form>
+                            </div>
+                          </Dialog>
+                          <button
+                            class="text-left"
+                            {...{ command: 'show-modal', commandfor: `album-${resolveName(item.title)}` }}
+                          >
+                            {item.cover && (
+                              <img
+                                src={item.cover}
+                                alt={resolveName(item.title)}
+                                class="size-full border border-border"
+                              />
+                            )}
+                            <div class="mt-1 min-w-0">
+                              <h3 class="text-sm truncate">{resolveName(item.title)}</h3>
+                              <p class="text-xs text-muted-foreground truncate">{resolveName(item.artist)}</p>
+                            </div>
+                          </button>
+                        </>
+                      )
+                    })}
+                  </div>
+                )}
+                {singles.length > 0 && (
+                  <div class="grid grid-cols-3 gap-2 items-center font-sans py-2">
+                    {singles.map((item) => (
+                      <div data-track-url={item.url} class="group flex items-center gap-2 w-full text-left">
+                        {item.cover && (
+                          <span class="relative size-10 shrink-0">
+                            <img src={item.cover} alt={resolveName(item.title)} class="size-10 border border-border" />
+                            {item.url && (
+                              <span class="absolute inset-0 grid place-items-center bg-black/40 text-white opacity-0 transition-opacity group-hover:opacity-100">
+                                ▶
+                              </span>
+                            )}
+                          </span>
+                        )}
+                        <span class="min-w-0">
+                          <span class="block text-sm truncate">{resolveName(item.title)}</span>
+                          <span class="block text-xs text-muted-foreground truncate">{resolveName(item.artist)}</span>
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </>
+            )
+          })()}
+        </Details>
+      ))
+    }
+  </div>
+</BaseLayout>
+
+<script>
+  const audio = document.querySelector<HTMLAudioElement>('#albums-player')!
+  let current = ''
+
+  function togglePlay(url: string) {
+    if (current === url) {
+      if (audio.paused) {
+        audio.play()
+      } else {
+        audio.pause()
+      }
+    } else {
+      current = url
+      audio.src = url
+      audio.loop = true
+      audio.play()
+    }
+  }
+
+  document.querySelectorAll('[data-track-url]').forEach((el) => {
+    el.addEventListener('click', () => {
+      const url = el.getAttribute('data-track-url')
+      if (url)
+togglePlay(url)
+    })
+  })
+</script>
